@@ -1,0 +1,35 @@
+@import '~antd/dist/antd.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 100vh;
+  min-height: 100vh;
+  display: flex;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root, .App {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: gray;
+}
+
+.App {
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  background-color: white;
+  padding: 20px;
+}
